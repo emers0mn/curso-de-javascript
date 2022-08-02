@@ -1,0 +1,102 @@
+Existe duas formas de comentar:
+// Sempre com barra barra para poder selecionar uma linha
+/* barra asterisco, asterisco barra para poder comentar mais de uma linha */
+
+Tipos de dados:
+- Boolean
+- Null
+- Undefined
+- Number
+- String
+
+Operadores aritiméticos:
++ Adição
+- Subtração
+* Multiplicação
+/ Divisão
+% módulo: É para pegar o resto da dívisão: por exemplo. Se dividir 19 por 15, vai sobrar 4 (seria
+um para cada e sobraria 4).
+++ incremento
+-- Decremento
+A ordem da incrementação e da Decrementação altera o resultado.
+usar:
+++a
+a++ 
+Da um resultado diferente.
+Temos que lembrar da lógica da programação para poder aplicar de forma correta
+
+let a = 30
+
+let b = a++
+expectativa: 30
+
+let a = 30
+
+let b = ++a
+expectativa: 31
+
+Para poder tornar isso um pouco mais dinamico, podemos usar novas atribuições
+=
++=
+-=
+*=
+/=
+%=
+Todos eles são formas diferente de falar: Ok, vamos incrementar ou decrementar, mas vamos fazer
+isso com números.
+
+let a = 30;
+
+a++;
+expectativa: 31 (Vai incrementar só 1)
+
+a += 5;
+expectativa: 35 (Vai incrementar 5)
+
+Isso vale para tudo no sentindo de incrementar e decrementar, ou multiplicar e dividir
+
+*Operadores de comparação*
+Quando comparamos as coisas, estamos testando: Se algo é verdadeiro ou se algo é falso
+ou seja, estamos testando os tipos boleanos
+
+True or False
+
+== Igual a
+=== Valor igual e igual
+!= Não é igual
+!== Não é igual ou não igual
+> maior que
+< menor de
+>= Maior que ou igual a
+<= Menor que ou igual a
+
+ex:
+a.
+console.log(2 == "2")
+expectativa: true
+
+b.
+console.log(2 === "2")
+expectativa: false
+
+O primeiro testou algo simples, se eles são iguais. number 2 e string 2 são iguais, não mudam nada.
+Mas o segundo provou que eles não são numbers. Eles não são perfeitamentes compativeis.
+
+*Operadores lógicos*
+&& (e)
+|| (ou)
+
+Eles servem para fazer comparações lógicas entre o que estamos testando. Também estão testando
+valores boleanos (true or false)
+
+Isso entra muito dentro da taltologia, vale a pena estudar novamente.
+
+ex:
+
+let A = true;
+let A = false;
+
+var c = a && b;
+expectativa: false
+(o que ele fez aqui? ele perguntou para se mesmo: A e B são iguais? No caso, não, então é falso)
+
