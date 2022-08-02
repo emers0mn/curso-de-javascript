@@ -1,17 +1,17 @@
-let caixa = "Hello, World";
-let maisCoisas = caixa + ", como vai por aí?";
+let idade = 0;
+let negativo = "Você não pode comprar";
+let positivo = "Acesso permitido";
+let tittle = document.getElementById("tittle");
 
-let tittle = document.getElementById('tittle');
+idade = parseInt(prompt("Coloque aqui a sua idade: "));
 
-tittle.addEventListener("click", mudou);
 
-function mudou (){
-    tittle.innerHTML = maisCoisas;
-};
 
-let a = true;
-let b = false;
-
-let c = a || b;
-
-console.log(c);
+if (idade < 18) {
+    console.log(negativo)
+    tittle.innerHTML= "Sua mãe sabe que você está acessando esses sites?"
+} 
+else{
+    tittle.innerHTML= "É hora da maldade"
+    console.log(positivo)
+}
