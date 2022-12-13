@@ -14,4 +14,5 @@ if (idade < 18) {
 else{
     tittle.innerHTML= "É hora da maldade"
     console.log(positivo)
-}
+};
+
