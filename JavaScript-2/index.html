@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Calculadora</title>
 
     <style>
         * {
@@ -24,9 +24,23 @@
     </style>
 </head>
 <body>
+    <div id="calculo">
+        <!-- Crie os dois campos chamados "inputValorA" e "inputValorB" -->
+        <fieldset>
+            <label for="inputValorA">Valor de A:</label>
+            <input id="inputValorA" type="number" placeholder="Digite o valor de A:">
+        </fieldset>
+        <fieldset>
+            <label for="inputValorB">Valor de B:</label>
+            <input id="inputValorB" type="number" placeholder="Digite o valor de B:">
+        </fieldset>
+        <!-- Criar um botão chamado SOMA -->
+        <button class="calculo" type="submit">Somar</button>
 
-    <h1>Clique em mim</h1>
-    <div class="bt" ondblclick="editando()">Click</div>
-    <script src="eventosDOM.js"></script>
+        <p id="resultado"></p>
+    </div>
+    <script src="calculo.js"></script>
+</body>
+
 </body>
 </html>
